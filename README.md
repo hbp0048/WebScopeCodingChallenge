@@ -25,6 +25,7 @@ User would be directed to the main page and would be able to create booking but 
 It would be better to have options like time option that allows users to select the time that they want the courier service to pick the item up(something like now, 30 min later..).
 
 
+**Deployment Process**
 
 * Ruby and Rails version
 * 
