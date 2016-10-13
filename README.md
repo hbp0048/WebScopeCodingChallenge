@@ -26,11 +26,11 @@ Ruby - 2.3.0
 Once you have Ruby on Rails set up and working
 
 ``` 
-$ git pull <REPOSITORY PATH>
-$ cd webscope_challenge
-$ bundle
-$ rails db:migrate
+$ cd <path>/WebScopeCodingChallenge-master
+$ bundle install
+$ rails db:migrate (or $ rake db:migrate)
 $ rails server
 
 ```
+Then open http://localhost:3000/
 
