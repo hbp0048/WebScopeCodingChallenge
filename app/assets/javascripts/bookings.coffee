@@ -17,7 +17,7 @@ jQuery(document).on 'turbolinks:load', ->
         
         #initialise map related variables
         map = new google.maps.Map(document.getElementById("googleMap"), {
-            center: {lat: -33.8688, lng: 151.2195},
+            center: {lat: -36.788426, lng: 174.771742},
             zoom: 13
         })
         
