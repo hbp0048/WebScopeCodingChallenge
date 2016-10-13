@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  booking_id: 1
+  sender: MyString
+  recepient: MyString
+  booking_date: 2016-10-12
+  pickup_addr: MyString
+  dropoff_addr: MyString
+  delivered: false
+
+two:
+  booking_id: 1
+  sender: MyString
+  recepient: MyString
+  booking_date: 2016-10-12
+  pickup_addr: MyString
+  dropoff_addr: MyString
+  delivered: false

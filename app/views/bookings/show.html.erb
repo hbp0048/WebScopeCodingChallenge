@@ -1,0 +1,31 @@
+<!-- 
+  Showing Booking 
+  created by: Minju Park
+  last edited in 13/10/2016
+-->
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sender:</strong>
+  <%= @booking.sender %>
+</p>
+
+<p>
+  <strong>Recipient:</strong>
+  <%= @booking.recipient %>
+</p>
+
+
+<p>
+  <strong>Pickup address:</strong>
+  <%= @booking.pickup_addr %>
+</p>
+
+<p>
+  <strong>Dropoff address:</strong>
+  <%= @booking.dropoff_addr %>
+</p>
+
+
+<%= link_to 'Back', bookings_path %>

@@ -1,0 +1,43 @@
+<!-- 
+  Booking Index
+  created by: Minju Park
+  last edited in 13/10/2016
+-->
+
+
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Bookings</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sender</th>
+      <th>Recipient</th>
+      <th>Booking date</th>
+      <th>Pickup address</th>
+      <th>Dropoff address</th>
+      <th>Delivered</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bookings.each do |booking| %>
+      <tr>
+        <td><%= booking.sender %></td>
+        <td><%= booking.recipient %></td>
+        <td><%= booking.created_at %></td>
+        <td><%= booking.pickup_addr %></td>
+        <td><%= booking.dropoff_addr %></td>
+        <td><%= booking.delivered %></td>
+        <td><%= link_to 'Show', booking %></td>
+        <td><%= link_to 'Destroy', booking, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+ <%= link_to 'Create', new_booking_path %>
