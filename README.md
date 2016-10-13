@@ -23,7 +23,7 @@ Ruby - 2.3.0
 
 * Deployment instructions
 
-Once you have Ruby on Rails set up and working
+Once you have Ruby on Rails set up and working, download the zip file and unzip to a desired location
 
 ``` 
 $ cd <path>/WebScopeCodingChallenge-master
